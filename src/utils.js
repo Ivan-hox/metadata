@@ -36,9 +36,9 @@ export const createTokenMetaData = async (wallet, mintId) => {
     updateAuthority: wallet.publicKey,
   };
   const dataV2 = {
-    name: "HOX Coin",
-    symbol: "HOX",
-    uri: "https://gateway.pinata.cloud/ipfs/Qme5yBSqWhkH7Xa57fAyB1r9qTXaQ3Mj5ucZHovyEcFyee",
+    name: "Smiley",
+    symbol: "SML",
+    uri: "https://gateway.pinata.cloud/ipfs/QmUA4wyjdRdpNr8XcyYUwjifN8ZxNptDAP6GyGnJoeZkP5?_gl=1*8qhgv4*_ga*ZTYzMWVhYjYtMDVlNy00NGI3LWIxMzAtYTE1ZDc5Y2NkMTY4*_ga_5RMPXG14TE*MTY3OTUwMjg1Mi40LjEuMTY3OTUwMzA3Ny41MS4wLjA.",
     // we don't need that
     sellerFeeBasisPoints: 0,
     creators: null,
